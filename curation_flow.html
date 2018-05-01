@@ -615,10 +615,8 @@
               penalty = 1;
             }
 			
-			// if the voter is author, the penalty doesn't apply
-            if (result[i].author == the_voter) {
-              penalty = 1;
-            }
+			
+            
             sbd_arr = result[i].pending_payout_value;
             sbd = sbd_arr.split(" ")[0];
 
